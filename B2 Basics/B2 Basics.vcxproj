@@ -76,7 +76,8 @@
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Muhammad\source\repos\Cpp Building Blocks\B2 Basics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -95,7 +96,8 @@
       <IntrinsicFunctions>true</IntrinsicFunctions>
       <SDLCheck>true</SDLCheck>
       <ConformanceMode>true</ConformanceMode>
-      <AdditionalIncludeDirectories>C:\Users\Muhammad\source\repos\Cpp Building Blocks\B2 Basics\src;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>
+      </AdditionalIncludeDirectories>
     </ClCompile>
     <Link>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -118,6 +120,17 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="src\examples_s100.cpp" />
+    <ClCompile Include="src\examples_s200.cpp" />
+    <ClCompile Include="src\examples_s300.cpp" />
+    <ClCompile Include="src\examples_s400.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\examples_s100.h" />
+    <ClInclude Include="src\examples_s200.h" />
+    <ClInclude Include="src\examples_s300.h" />
+    <ClInclude Include="src\examples_s400.h" />
+    <ClInclude Include="src\myHeaderList.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
